@@ -38,7 +38,7 @@ public class Pratos extends Thread{
 				System.out.println("O percentual de cozimento da " +id+ "a. sopa de cebola foi " +percentualCozimento);
 			} else {
 				sleep(100);
-				tempo = (int)((Math.random() * 301 ) + 500);
+				tempo = (int)((Math.random() * 601 ) + 600);
 				percentualCozimento = (int)(tempo / 0.1f);
 				System.out.println("A " +id+ "a. lasanha à bolonhesa foi inicializada");
 				System.out.println("O percentual de da " +id+" a. lasanha à bolonhesa cozimento foi " +percentualCozimento);
@@ -60,7 +60,7 @@ public class Pratos extends Thread{
 				
 			} else {
 				sleep(500);
-				tempo = (int)((Math.random() * 301 ) + 500);
+				tempo = (int)((Math.random() * 601) + 600);
 			}System.out.println("A " +id+ "a. lasanha à bolonhesa está pronta");
 
 		} catch (InterruptedException e) {
